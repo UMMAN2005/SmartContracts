@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "amountOfMoney",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "totalBalance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalDoneDepositsAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalDoneWithdrawsAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numberOfDeposits",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numberOsWidhdraws",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "makeDeposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StructMapping.sol": "MyContarct"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StructMapping.sol": {
+			"keccak256": "0xad88a121dde2f95525ce2cbb1bb1872d78944b0d724f29920872e8a7b7df5b19",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bf5b5c657b4d0bd44250465a7523e3a8b7fa00473769b502803acf36eaaea3d5",
+				"dweb:/ipfs/QmcraAVucJSED5CUZJgdKnHHthfD6Zi3HucqrdKQK2euDG"
+			]
+		}
+	},
+	"version": 1
+}

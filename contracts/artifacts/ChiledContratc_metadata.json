@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StructAndChildContract.sol": "ChiledContratc"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StructAndChildContract.sol": {
+			"keccak256": "0x14e229fa2ad95b242347308d63f0f420f40c261712657c950e04e6f56cec7a3b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2f905cd9d3a6b5fd4d878611931ea02bc09c4e5f5eb45f988e8e894ffe109699",
+				"dweb:/ipfs/QmTk1mKgGLCxv2gwdniRVU1Dn6SHJqTYfe2u813BSGZtn4"
+			]
+		}
+	},
+	"version": 1
+}

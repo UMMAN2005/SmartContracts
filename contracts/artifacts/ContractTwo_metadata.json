@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contractOne",
+						"type": "address"
+					}
+				],
+				"name": "depositOnContractOne",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GPT.sol": "ContractTwo"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GPT.sol": {
+			"keccak256": "0x267ef4eb8bdfd1da3853ffcc940b88ecefc8d21aa119c9efde8394987797eb8f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7a2a1430c9dfa32e6287313e735a3ad3d7fb09f0d3a795fcf1a4ac98ef7e84e0",
+				"dweb:/ipfs/QmT1oynajwsQkAoUu8kGoJ4x1yMM4g3kruL3kFjYHoGeUR"
+			]
+		}
+	},
+	"version": 1
+}

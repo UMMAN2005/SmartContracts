@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newValue",
+						"type": "uint256"
+					}
+				],
+				"name": "setData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "dataValue",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Modifiers.sol": "Example"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Modifiers.sol": {
+			"keccak256": "0xe395557e70d1df08388705a2abcfa7cd3bf22a990f0f505af6624904ab0b157a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b3120f9b4eda02f9ac1352f314c3b0333160974a56210894fb0973b5c33d0331",
+				"dweb:/ipfs/Qmdf9YwEAgQFq42uhi99NFFhue66C9NhYDSzrZ7s23YxK5"
+			]
+		}
+	},
+	"version": 1
+}
